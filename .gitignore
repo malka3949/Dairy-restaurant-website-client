@@ -1,0 +1,41 @@
+# תיקיות בנייה
+/dist/
+/out-tsc/
+
+# קבצי מערכת
+.DS_Store
+Thumbs.db
+
+# קבצים של Angular
+.angular/
+
+# node modules
+node_modules/
+
+# קבצי לוגים
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# סביבות עבודה שונות
+.idea/
+.vscode/
+
+# קבצים זמניים/אישיים
+*.sublime-project
+*.sublime-workspace
+*.env
+*.local.*
+*.swp
+
+# קבצי קומפילציה של TypeScript
+*.js
+*.js.map
+
+# קבצים של Coverage (בדיקות)
+coverage/
+
+# build artifacts
+*.tgz
+
+#
