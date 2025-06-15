@@ -1,59 +1,71 @@
-# Project
+# Angular Material Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+This is a modern single-page web application built with [Angular CLI](https://angular.dev/tools/cli), using Angular v19 and Angular Material for UI components.
 
-## Development server
+## 📁 Project Structure
 
-To start a local development server, run:
+- **src/** – Main source code (components, services, styles, etc.)
+- **public/** – Static assets
+- **angular.json** – Project configuration
+- **tsconfig.json** – TypeScript settings
+- **package.json** – Dependencies and scripts
 
+## 🚀 Getting Started
+
+### 1. Install dependencies
 ```bash
-ng serve
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+### 2. Run the development server
 ```bash
-ng generate component component-name
+npm start
+```
+Visit [http://localhost:4200](http://localhost:4200) in your browser.
+
+## 🏗️ Build
+
+To compile the project for production:
+```bash
+npm run build
+```
+The build artifacts will be stored in the `dist/` directory.
+
+## 🧪 Testing
+
+### Unit tests:
+```bash
+npm run test
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### End-to-End (e2e) tests:
+By default, Angular CLI doesn't include an e2e framework. You can add one like Cypress or Playwright.
 
-```bash
-ng generate --help
-```
+## 🧰 Useful Angular CLI Commands
 
-## Building
+- Generate a component:
+  ```bash
+  ng generate component component-name
+  ```
+- List available generators:
+  ```bash
+  ng generate --help
+  ```
 
-To build the project run:
+## 📦 Dependencies
 
-```bash
-ng build
-```
+Key packages used:
+- Angular v19 (core, router, forms)
+- Angular Material v19
+- RxJS v7
+- SweetAlert & SweetAlert2
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📚 Resources
 
-## Running unit tests
+- [Angular Official Docs](https://angular.dev)
+- [Angular CLI Commands](https://angular.dev/tools/cli)
+- [Angular Material](https://material.angular.io)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> This project was scaffolded with Angular CLI version 19.0.4.
