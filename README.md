@@ -1,4 +1,4 @@
-# Angular Material Project
+# 🍕☕Dairy-Restaurant – Frontend (Angular)
 
 This is a modern single-page web application built with [Angular CLI](https://angular.dev/tools/cli), using Angular v19 and Angular Material for UI components.
 
